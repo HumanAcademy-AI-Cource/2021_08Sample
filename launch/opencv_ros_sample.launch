@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="uvc_camera" pkg="uvc_camera" type="uvc_camera_node" />
+  <node name="grayscale_conversion" pkg="opencv_ros_sample" type="grayscale_conversion.py" />
+  <node name="binarization_process" pkg="opencv_ros_sample" type="binarization_process.py" />
+  <node name="rqt_image_view" pkg="rqt_image_view" type="rqt_image_view" args="/image_threshold" required="true" />
+</launch>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>opencv_ros_sample</name>
+  <version>0.1.0</version>
+  <description>The opencv_ros_sample package</description>
+  <maintainer email="haa-c001@athuman.com">athuman</maintainer>
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>cv_bridge</depend>
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+  
+  <export>
+  </export>
+</package>
